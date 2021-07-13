@@ -67,8 +67,8 @@ function Dashboard() {
       <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
         <Sidebar />
 
-        <SimpleGrid flex="1" gap="4" minChildWIth="320px" align="flex-start">
-          <Box p="4" pb="4" bg="gray.800" borderRadius={8}>
+        <SimpleGrid flex="1" gap="4" minChildWidth="320px" align="flex-start">
+          <Box p={['6','8']} pb="4" bg="gray.800" borderRadius={8}>
             <Text fontSize="lg" mb="4">
               Incritos da semana
             </Text>
